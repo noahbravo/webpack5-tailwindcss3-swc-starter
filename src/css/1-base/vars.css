@@ -1,0 +1,6 @@
+:root {
+  --primary-color: #fff;
+  --text-color: var(--primary-color);
+  --accent-color: #495d82;
+  --bg-color: #111;
+}

@@ -1,0 +1,28 @@
+/* Typography */
+strong {
+  font-weight: normal
+}
+
+/* Base Styles */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
