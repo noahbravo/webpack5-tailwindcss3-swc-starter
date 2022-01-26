@@ -1,6 +1,9 @@
 import '../css/global.css'
 import { onDocumentReady, importAll } from './functions.js'
 
+// import all html files from pages
+importAll(require.context('../pages', true, /\.html/))
+
 // import all media from public
 importAll(
   require.context(
