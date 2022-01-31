@@ -23,7 +23,7 @@
   "license": "ISC",
   "devDependencies": {
     "@swc/core": "1.2.135",
-    "copy-webpack-plugin": "10.2.3",
+    "copy-webpack-plugin": "10.2.4",
     "css-loader": "6.5.1",
     "css-minimizer-webpack-plugin": "3.4.1",
     "eslint": "8.8.0",
@@ -44,7 +44,7 @@
     "mini-css-extract-plugin": "2.5.3",
     "postcss": "8.4.5",
     "postcss-loader": "6.2.1",
-    "postcss-preset-env": "7.2.3",
+    "postcss-preset-env": "7.3.0",
     "prettier": "2.5.1",
     "style-loader": "3.3.1",
     "stylelint": "14.3.0",
@@ -52,7 +52,7 @@
     "swc-loader": "0.1.15",
     "tailwindcss": "3.0.18",
     "terser-webpack-plugin": "5.3.0",
-    "webpack": "5.67.0",
+    "webpack": "5.68.0",
     "webpack-cli": "4.9.2",
     "webpack-dev-server": "4.7.3"
   },
