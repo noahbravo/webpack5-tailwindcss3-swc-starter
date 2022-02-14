@@ -67,6 +67,6 @@
     }
   },
   "optionalDependencies": {
-    "@swc/core-darwin-x64": "^1.2.139"
+    "@swc/core-darwin-x64": "1.2.139"
   }
 }
