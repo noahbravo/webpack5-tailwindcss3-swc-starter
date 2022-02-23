@@ -22,7 +22,7 @@
   "author": "Elena Bravo",
   "license": "ISC",
   "devDependencies": {
-    "@swc/core": "1.2.143",
+    "@swc/core": "1.2.144",
     "copy-webpack-plugin": "10.2.4",
     "css-loader": "6.6.0",
     "css-minimizer-webpack-plugin": "3.4.1",
@@ -48,7 +48,7 @@
     "prettier": "2.5.1",
     "replace-ext": "2.0.0",
     "style-loader": "3.3.1",
-    "stylelint": "14.5.1",
+    "stylelint": "14.5.2",
     "stylelint-config-standard": "25.0.0",
     "swc-loader": "0.1.15",
     "tailwindcss": "3.0.23",
@@ -67,6 +67,6 @@
     }
   },
   "optionalDependencies": {
-    "@swc/core-darwin-x64": "1.2.143"
+    "@swc/core-darwin-x64": "1.2.144"
   }
 }
