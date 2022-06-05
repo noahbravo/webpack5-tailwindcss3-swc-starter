@@ -22,7 +22,7 @@
   "author": "Elena Bravo",
   "license": "ISC",
   "devDependencies": {
-    "@swc/core": "1.2.196",
+    "@swc/core": "1.2.197",
     "copy-webpack-plugin": "11.0.0",
     "css-loader": "6.7.1",
     "css-minimizer-webpack-plugin": "4.0.0",
@@ -67,6 +67,6 @@
     }
   },
   "optionalDependencies": {
-    "@swc/core-darwin-x64": "1.2.196"
+    "@swc/core-darwin-x64": "1.2.197"
   }
 }
