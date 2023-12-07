@@ -2,6 +2,7 @@ const path = require('path')
 const { merge } = require('webpack-merge')
 const baseConfig = require('./webpack.config.base')
 const projectConfig = require('./project.config')
+const ESLintPlugin = require('eslint-webpack-plugin')
 const { srcPath } = projectConfig
 
 const mode = 'development'
@@ -23,5 +24,6 @@ module.exports = merge(baseConfig(mode), {
   devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.css']
-  }
+  },
+  plugins: [new ESLintPlugin()]
 })
