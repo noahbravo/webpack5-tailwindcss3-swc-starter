@@ -1,6 +1,13 @@
-## Webpack 5 configuration for Single or Multipage websites using Tailwind CSS 3, PostCSS and SWC
+## Webpack 5 configuration for single or multipage websites using Tailwind CSS 3, PostCSS and SWC
 
-**Features:**
+![Maintenance](https://img.shields.io/badge/maintenance-not%20maintained-red.svg)
+
+## Project status
+
+This repository is no longer actively maintained.
+It remains public as a reference, but no ongoing updates or support are planned.
+
+## Features
 
 - Webpack 5
 - Tailwind CSS
@@ -10,6 +17,6 @@
 
 ## How to run
 
-- Clone the respository and install the dependencies using npm or yarn.
-- Run `npm run start` to start the development server. This will open the site in localhost:3000.
-- Run `npm run build` to create a production build. This will build the output under the `dist` folder by default.
+- Clone the repository and install dependencies with npm or yarn.
+- Run `npm run start` to start the development server at `http://localhost:3000`.
+- Run `npm run build` to create a production build in the `dist` folder.
